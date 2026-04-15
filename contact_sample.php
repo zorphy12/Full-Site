@@ -195,12 +195,9 @@ unset($_SESSION['alerts']);
                             <label>Subject <span class="required">*</span></label>
                             <select name="subject" required>
                                 <option value="">Select a PROGRAM</option>
-                                <option value="Admissions" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Admissions') ? 'selected' : '' ?>>Admissions</option>
-                                <option value="Program Information" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Program Information') ? 'selected' : '' ?>>Program Information</option>
-                                <option value="Scholarships" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Scholarships') ? 'selected' : '' ?>>Scholarships</option>
-                                <option value="Technical Support" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Technical Support') ? 'selected' : '' ?>>Technical Support</option>
-                                <option value="General Inquiry" <?= (isset($_POST['subject']) && $_POST['subject'] == 'General Inquiry') ? 'selected' : '' ?>>General Inquiry</option>
-                                <option value="Feedback" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Feedback') ? 'selected' : '' ?>>Feedback</option>
+                                <option value="College Program" <?= (isset($_POST['subject']) && $_POST['subject'] == 'College Program') ? 'selected' : '' ?>>College Program</option>
+                                <option value="Shs Program" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Shs Program') ? 'selected' : '' ?>>Shs Program</option>
+                                
                             </select>
                         </div>
                         
